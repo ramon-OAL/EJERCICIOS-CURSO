@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+    background-color: rgb(238, 240, 189);
+}
+div#contenedor{
+    border:1px solid rgb(12, 6, 6);
+    padding:20px;
+    border-radius: 10px;
+    background-color: #f77777;
+    box-shadow: 0 10px 10px black;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 242, 242);
+}
+
+button{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: green;
+    border:none;
+    border-radius: 5px;
+    width:45% ;
+}
+button:hover{
+    background-color: rgb(118, 219, 118)
+}
+
+/*sirve para poner un máximo de anchura de 80% en el botón*/
+ @media (max-width:850px){
+    button{
+        width:80%
+    }
+ }
